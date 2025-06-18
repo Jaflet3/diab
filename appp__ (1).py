@@ -47,6 +47,7 @@ blood_glucose = st.number_input("Blood Glucose (mg/dL)", 50, 300, 100) # Added i
 
 # Encoding inputs
 
+input_data = [[age, bmi, weight, blood_glucose]]
 
 # Prediction
 if st.button("🔍 Predict Risk"):
